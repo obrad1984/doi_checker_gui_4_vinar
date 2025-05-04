@@ -1,6 +1,6 @@
 # DOI Checker GUI Project
 
-This project provides a graphical user interface (GUI) for checking the existence of Digital Object Identifiers (DOIs) in the VinaR database. Users can input a DOI and check its existence repeatedly until they decide to stop.
+This project provides a graphical user interface (GUI) for checking the existence of Digital Object Identifiers (DOIs) in the VinaR repository. Users can input a DOI and check its existence repeatedly until they decide to stop.
 
 ## Project Structure
 

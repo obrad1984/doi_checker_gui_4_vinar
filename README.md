@@ -44,3 +44,7 @@ python src/gui.py
 
 Obrad Vučkovac  
 [ORCID](https://orcid.org/0000-0001-5616-2680)
+
+## Zenodo release
+
+Vučkovac, O. (2025). DOI Checker GUI (v1.1.1). Zenodo. https://doi.org/10.5281/zenodo.15484349  

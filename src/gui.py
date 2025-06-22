@@ -22,7 +22,19 @@ class DOICheckerGUI:
         self.stop_button.pack()
 
     def check_doi(self):
-        doi = self.doi_entry.get()
+        doi = self.doi_entry.get().strip()
+        # Remove common DOI URL prefixes
+        prefixes = [
+            "http://dx.doi.org/",
+            "https://dx.doi.org/",
+            "http://doi.org/",
+            "https://doi.org/" 
+        ]
+        for prefix in prefixes:
+            if doi.startswith(prefix):
+                doi = doi[len(prefix):]
+                break  # Stop after the first match
+        
         result = check_doi_exists(doi)
         self.result_text.delete(1.0, END)  # Clear previous results
         if result is None:

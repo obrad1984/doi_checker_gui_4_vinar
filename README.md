@@ -1,5 +1,8 @@
 # DOI Checker GUI Project
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15484349.svg)](https://doi.org/10.5281/zenodo.15484349)  
+
+
 This project provides a graphical user interface (GUI) for checking the existence of Digital Object Identifiers (DOIs) in the VinaR repository. Users can input a DOI and check its existence repeatedly until they decide to stop.
 
 ## Project Structure
